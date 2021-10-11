@@ -54,7 +54,7 @@ notifications:
   slack: 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX'
 ```
 
-![Notifications on Slack](/img/notifications/slack.png)
+![Notifications on Slack](/assets/img/notifications/slack.png)
 
 ## Notifications on Discord
 
@@ -65,7 +65,7 @@ notifications:
   discord: 'https://discordapp.com/api/webhooks/XXXXXX/XXXXXX'
 ```
 
-![Notifications on Discord](/img/notifications/discord.png)
+![Notifications on Discord](/assets/img/notifications/discord.png)
 
 ## Notifications via Webhook
 

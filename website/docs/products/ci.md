@@ -71,7 +71,7 @@ With everything installed, you can use the command below in your CI setup:
 
 Now, when you push your changes you would see the following:
 
-![Schema Diff in CircleCI](/img/ci/diff.jpg)
+![Schema Diff in CircleCI](/assets/img/ci/diff.jpg)
 
 > Remember, you can use any command the CLI offers.
 

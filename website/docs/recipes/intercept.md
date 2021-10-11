@@ -6,7 +6,7 @@ GraphQL Inspector lets you intercept schema changes via HTTP. You're able to dec
 
 Whenever GraphQL Inspector runs schema checking triggered by Push or Pull Request events, your http endpoint receives a list of changes, list of related Pull Request or a commit SHA.
 
-![Intercept](/img/github/intercept.png)
+![Intercept](/assets/img/github/intercept.png)
 
 ## Usage
 

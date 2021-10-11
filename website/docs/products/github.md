@@ -21,7 +21,7 @@ We strongly believe in Open Source and that's why we made it possible to have a 
 
 ---
 
-![Application](/img/github/app-action.jpg)
+![Application](/assets/img/github/app-action.jpg)
 
 ## Installation
 
@@ -30,11 +30,11 @@ GraphQL Inspector App comes with a free plan and that's the only plan.
 Visit [the application on marketplace](https://github.com/marketplace/graphql-inspector) and enable it in your project:
 
 **Pick a free plan:**
-![Step 1](/img/github/app-setup-plan.jpg)
-![Step 2](/img/github/app-install.jpg)
+![Step 1](/assets/img/github/app-setup-plan.jpg)
+![Step 2](/assets/img/github/app-install.jpg)
 
 **Select repositories and click Install:**
-![Step 3](/img/github/app-repositories.jpg)
+![Step 3](/assets/img/github/app-repositories.jpg)
 
 ## Usage
 

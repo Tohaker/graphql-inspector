@@ -4,7 +4,7 @@ title: Validate documents
 
 Validates documents against a schema and looks for deprecated usage.
 
-![Validate](/img/cli/validate.jpg)
+![Validate](/assets/img/cli/validate.jpg)
 
 ## Usage
 
