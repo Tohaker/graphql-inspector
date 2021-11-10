@@ -47,7 +47,7 @@ Whenever a new change is pushed to `develop` branch, you get a notification via 
 
 ## Notifications on Slack
 
-In order to use Slack notifications, you need to create your own application on Slack and an Incoming Webhook. [Follow these instructions](https://slack.com/intl/en-pl/help/articles/115005265063-Incoming-Webhooks-for-Slack).
+In order to use Slack notifications, you need to create your own application on Slack and an Incoming Webhook. <span style={{textDecoration: 'underline'}}>[Follow these instructions](https://slack.com/intl/en-pl/help/articles/115005265063-Incoming-Webhooks-for-Slack)</span>.
 
 ```yaml
 notifications:

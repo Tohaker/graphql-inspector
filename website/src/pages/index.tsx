@@ -1,4 +1,4 @@
-import {FeatureList, HeroGradient, HeroIllustration, InfoList} from '@theguild/components';
+import {FeatureList, HeroGradient, HeroIllustration} from '@theguild/components';
 
 import {handlePushRoute, NPMBadge} from '@guild-docs/client';
 import React from 'react';
@@ -12,12 +12,12 @@ export default function Index() {
                 title="GraphQL Inspector"
                 description="Validate schemas and detect changes. Receive schema change notifications. Keep Operations and Fragments consistent."
                 link={{
-                    href: '/docs',
+                    href: '/docs/introduction',
                     children: 'Get Started',
                     title: 'Get started with GraphQL Inspector Docs',
-                    onClick: (e) => handlePushRoute('/docs', e)
+                    onClick: (e) => handlePushRoute('/docs/introduction', e)
                 }}
-                colors={['#000', '#FFF']}
+                colors={['#2E2E2E', '#FFF']}
                 version={<NPMBadge name="@graphql-inspector/cli" />}
                 image={{
                     src: '/assets/img/ui/cover.svg',

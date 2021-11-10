@@ -5,10 +5,10 @@ export function getRoutes(): IRoutes {
     _: {
       docs: {
         $name: 'Docs',
-        $routes: ['getting_started', 'essentials', 'recipes','products', 'products', 'api'],
+        $routes: ['introduction', 'essentials', 'recipes','products', 'products', 'api'],
         _: {
-          getting_started: {
-            $name: 'Getting Started',
+          introduction: {
+            $name: 'Introduction',
             $routes: ['index', 'installation']
           },
           essentials: {

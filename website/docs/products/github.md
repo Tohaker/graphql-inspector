@@ -15,9 +15,9 @@ We strongly believe in Open Source and that's why we made it possible to have a 
 - [Detect changes](#detection-of-changes)
 - [Schema change notifications](#schema-change-notifications)
 - [In-Code annotations](#annotations)
-- [Intercept checks with serverless functions](../recipes/intercept.md)
-- [Use many environments](../recipes/environments.md)
-- [Use live and running GraphQL endpoints](../recipes/endpoints.md)
+- [Intercept checks with serverless functions](../recipes/intercept)
+- [Use many environments](../recipes/environments)
+- [Use live and running GraphQL endpoints](../recipes/endpoints)
 
 ---
 
@@ -63,11 +63,11 @@ For example, `schema.graphql` points to a file in root directory of a repository
 
 ### Schema change notifications
 
-To stay up to date with changes in your GraphQL Schema and to receive notifications on Slack, Discord or even via WebHooks, read the ["Notifications" chapter](../essentials/notifications.md).
+To stay up to date with changes in your GraphQL Schema and to receive notifications on Slack, Discord or even via WebHooks, read the ["Notifications" chapter](../essentials/notifications).
 
 ### Annotations
 
-In some cases you want to get a summary of changes but no annotations on a schema file. Annotations are enabled by default but to disabled them, please follow the instructions in ["Annotations" chapter](../recipes/annotations.md).
+In some cases you want to get a summary of changes but no annotations on a schema file. Annotations are enabled by default but to disabled them, please follow the instructions in ["Annotations" chapter](../recipes/annotations).
 
 ### Detection of changes
 
@@ -77,15 +77,15 @@ To force a successful check just set `failOnBreaking` to `false` or apply the [`
 
 ### Using GraphQL Endpoint
 
-Read more about [using live and running GraphQL endpoint](../recipes/endpoints.md) as source of schema.
+Read more about [using live and running GraphQL endpoint](../recipes/endpoints) as source of schema.
 
 ### Using multiple environments
 
-Read more about [managing many environments](../recipes/environments.md).
+Read more about [managing many environments](../recipes/environments).
 
 ### Intercept checks with serverless functions
 
-Learn how to [remotely control detected changes and accept/reject Pull Requests](../recipes/intercept.md).
+Learn how to [remotely control detected changes and accept/reject Pull Requests](../recipes/intercept).
 
 ## Other
 
@@ -151,7 +151,7 @@ endpoint: '<url>'
 
 ### Recommended worflow
 
-We recommend to automate the generation of `schema.graphql` and use `husky` to run [`$ graphql-inspector introspect`](../essentials/introspect.md):
+We recommend to automate the generation of `schema.graphql` and use `husky` to run [`$ graphql-inspector introspect`](../essentials/introspect):
 
 ```json
 {

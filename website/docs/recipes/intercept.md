@@ -10,7 +10,7 @@ Whenever GraphQL Inspector runs schema checking triggered by Push or Pull Reques
 
 ## Usage
 
-Configuring an interceptor looks fairly similar to [`endpoints`](./endpoints.md), except you can't modify a method, it's always POST request.
+Configuring an interceptor looks fairly similar to <span style={{textDecoration: 'underline'}}>[`endpoints`](./endpoints)</span>, except you can't modify a method, it's always POST request.
 
 **Single environment setup:**
 
@@ -47,7 +47,7 @@ env:
 
 ## Setting an interceptor logic
 
-Let's set all [criticality levels to Non-Breaking](https://github.com/kamilkisiela/graphql-inspector/blob/master/packages/core/src/diff/changes/change.ts#L67) and GitHub Check [conculsion to Success](https://github.com/kamilkisiela/graphql-inspector/blob/master/packages/github/src/types.ts#L33).
+Let's set all [criticality levels to Non-Breaking](https://github.com/kamilkisiela/graphql-inspector/blob/master/packages/core/src/diff/changes/change.ts#L67) and GitHub Check <span style={{textDecoration: 'underline'}}>[conculsion to Success](https://github.com/kamilkisiela/graphql-inspector/blob/master/packages/github/src/types.ts#L33)</span>.
 
 ```javascript
 module.exports = (req, res) => {

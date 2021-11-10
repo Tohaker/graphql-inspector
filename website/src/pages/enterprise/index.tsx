@@ -26,7 +26,7 @@ export default function Enterprise() {
                     title: 'Contact us | GraphQL Inspector',
                     onClick: (e) => handlePushRoute('#contact-us', e)
                 }}
-                colors={['#FFF', '#000']}
+                colors={['#FFF', '#2E2E2E']}
                 image={{
                     src: '/assets/img/ui/enterprise-cover.svg',
                     alt: 'Illustration'
